@@ -1,0 +1,42 @@
+/*  Body - pick font and background - set margin to 0 to avoid yellow outline      */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  min-height: 5em;
+  align-items: center;
+  background-color: #3e3e3e;
+  font-family: 'Amatic SC', cursive;
+}
+
+.navhead{
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 23px;
+}
+
+.nav-link{
+  display:flex;
+  justify-self: space-around;
+  width: 30%;
+}
+.nav-link li{
+  list-style: none;
+}
+.nav-link a{
+  color:white;
+  text-decoration: none;
+  letter-spacing: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
